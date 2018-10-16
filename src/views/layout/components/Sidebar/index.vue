@@ -22,6 +22,7 @@ export default {
   components: { SidebarItem },
   computed: {
     ...mapGetters([
+      'permission_routers',
       'sidebar'
     ]),
     routes() {
