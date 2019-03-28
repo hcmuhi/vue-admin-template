@@ -76,3 +76,25 @@ a:hover {
 .app-container {
   padding: 20px;
 }
+
+// 常规过滤
+.d-filter {
+  display: block;
+  padding-bottom: 6px;
+  overflow: hidden;
+  .d-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+  .d-item.el-input, .d-item.el-select {
+    width: 200px;
+  }
+  .d-len1.el-input, .d-len1.el-select {
+    width: 300px;
+  }
+  .right-button {
+    float: right;
+    z-index: 1;
+  }
+}
